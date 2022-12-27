@@ -110,7 +110,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 50%;
-  padding: 0.65rem;
+  padding: 0.6rem;
 }
 
 /* Card Styling */
@@ -127,7 +127,7 @@ main {
 }
 
 .main__image {
-  max-height: 220px;
+  max-height: 210px;
   overflow: hidden;
 }
 
@@ -183,6 +183,8 @@ main {
   fill: var(--clr-primary-200);
 }
 
+/* Pop up */
+
 .popup {
   position: absolute;
   bottom: 0;
@@ -192,7 +194,6 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  display: none;
 }
 
 .popup__socials {
@@ -213,4 +214,8 @@ main {
 
 .popup button > svg > path {
   fill: var(--clr-primary-100);
+}
+
+.hidden {
+  display: none;
 }
