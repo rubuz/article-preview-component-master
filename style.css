@@ -175,7 +175,7 @@ main {
 
 #share__btn {
   fill: #6e8098;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 #share__btn:hover {
@@ -194,6 +194,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  transition: 0.2s ease-in-out;
 }
 
 .popup__socials {
@@ -210,12 +211,22 @@ main {
 
 .popup button {
   background-color: var(--clr-primary-400);
+  transition: 0.3s;
 }
 
 .popup button > svg > path {
   fill: var(--clr-primary-100);
 }
 
+.popup button:hover {
+  background-color: var(--clr-primary-200);
+}
+
+.popup button:hover svg > path {
+  fill: var(--clr-primary-600);
+}
+
 .hidden {
-  display: none;
+  transform: translateY(99px);
+  opacity: 0;
 }
