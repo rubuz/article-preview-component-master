@@ -235,7 +235,8 @@ main {
 
 @media (min-width: 800px) {
   main {
-    max-width: 650px;
+    max-width: 660px;
+    height: 270px;
     flex-direction: row;
     align-items: center;
     overflow: visible;
@@ -245,15 +246,21 @@ main {
     font-size: 1.2rem;
   }
 
-  .main__image {
+  /* .main__image {
     min-height: 100%;
     width: 100%;
     background: url(images/drawers.jpg);
     background-size: cover;
-  }
+  } */
 
+  .main__image {
+    min-height: 100%;
+    border-radius: 0.6rem 0 0 0.6rem;
+    object-fit: cover;
+  }
   .main__image img {
-    display: none;
+    min-width: 22rem;
+    min-height: 100%;
   }
 
   .info__section {
