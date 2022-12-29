@@ -117,6 +117,7 @@ button {
 
 main {
   max-width: 320px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   background-color: var(--clr-primary-100);
@@ -236,7 +237,8 @@ main {
 @media (min-width: 800px) {
   main {
     max-width: 660px;
-    height: 270px;
+    max-height: 270px;
+    min-height: auto;
     flex-direction: row;
     align-items: center;
     overflow: visible;
